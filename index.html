@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AZ | Bot – Discord Bot</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0b1020;
+      color: #e8ecf5;
+      font: 16px/1.7 system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+    }
+    a { color: #a9c0ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      border-bottom: 1px solid #293653;
+      background: #0f1528;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .nav {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      letter-spacing: 0.5px;
+      color: #fff;
+    }
+    .logo span { color: #7b9cff; }
+    nav { display: flex; gap: 22px; flex-wrap: wrap; }
+    nav a { color: #c5d0e6; font-size: 0.95rem; }
+    nav a:hover { color: #fff; }
+
+    .hero {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 80px 20px 60px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      line-height: 1.15;
+      margin-bottom: 18px;
+      letter-spacing: -0.5px;
+    }
+    .hero h1 span { color: #7b9cff; }
+    .hero p {
+      max-width: 560px;
+      margin: 0 auto 32px;
+      color: #aab5ca;
+      font-size: 1.1rem;
+    }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #5b7cfa, #3b5bdb);
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1rem;
+      border: none;
+      text-decoration: none !important;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(91, 124, 250, 0.35);
+    }
+
+    .features {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 20px 20px 80px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #141c31;
+      border: 1px solid #293653;
+      border-radius: 18px;
+      padding: 26px;
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 1.15rem;
+      color: #fff;
+    }
+    .card p { color: #aab5ca; font-size: 0.95rem; }
+
+    footer {
+      border-top: 1px solid #293653;
+      padding: 28px 20px;
+      text-align: center;
+      color: #7a869c;
+      font-size: 0.9rem;
+    }
+    footer a { margin: 0 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="logo">AZ <span>|</span> Bot</div>
+      <nav>
+        <a href="index.html">Start</a>
+        <a href="terms.html">Nutzungsbedingungen</a>
+        <a href="privacy.html">Datenschutz</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>AZ <span>|</span> Bot</h1>
+    <p>Dein Discord-Bot. Zuverlässig, übersichtlich und einfach zu bedienen.</p>
+    <a class="btn" href="#" onclick="alert('Hier später deinen Discord Invite-Link einfügen')">Bot einladen</a>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h3>Einfach &amp; Schnell</h3>
+      <p>Klare Befehle und schnelle Antworten – ohne unnötigen Ballast.</p>
+    </div>
+    <div class="card">
+      <h3>Stabil</h3>
+      <p>Der Bot ist auf Zuverlässigkeit ausgelegt und wird regelmäßig gewartet.</p>
+    </div>
+    <div class="card">
+      <h3>Transparent</h3>
+      <p>Nutzungsbedingungen und Datenschutz sind klar und öffentlich einsehbar.</p>
+    </div>
+  </section>
+
+  <footer>
+    <a href="terms.html">Nutzungsbedingungen</a>
+    <a href="privacy.html">Datenschutzerklärung</a>
+    <br><br>
+    © 2026 AZ | Bot · Kontakt: <a href="mailto:davidgooner74@gmail.com">davidgooner74@gmail.com</a>
+  </footer>
+</body>
+</html>
